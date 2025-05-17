@@ -17,7 +17,7 @@ export default function FilterTabs (){
     
 return (<>
     
-<div className="border  border-gray-200 rounded-lg mx-auto flex gap-3 my-3 py-2">
+<div className="border  border-gray-200  dark:border-gray-300 rounded-lg shadow-sm mx-auto flex gap-3 my-3 py-2 px-3 ">
   <SelectBox options={taskIdOptions} onChange={onTaskIdChange} selected={selectedTaskId}/>
   <SelectBox />
 
